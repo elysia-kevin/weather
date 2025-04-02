@@ -15,7 +15,7 @@ function Header() {
             <Link to={"/"}>
             
             <figure>
-                <img src={theme==="dark"? "/public/assets/img/logo.png" : "/public/assets/img/pngtree-cloud-weather-logo-image-light.png"} alt="logo" height={'50px'} width={'50px'} />
+                <img src={theme==="dark"? "/src/assets/img/logo.png" : "/src/assets/img/pngtree-cloud-weather-logo-image-light.png"} alt="logo" height={'50px'} width={'50px'} />
             </figure>
             </Link>
             {/* <ModeToggle /> */}
